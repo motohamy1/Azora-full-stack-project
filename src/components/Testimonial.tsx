@@ -2,7 +2,11 @@ import "../App.css";
 
 const Testimonial = () => {
   return (
-    <section className="bg-primary pb-32 px-4 md:px-20">
+    <section className="relative pb-32 px-4 md:px-20">
+      {/* Top half - main theme color */}
+      <div className="absolute inset-0 bg-primary h-1/2"></div>
+      {/* Bottom half - white */}
+      <div className="absolute inset-0 bg-white h-1/2 top-1/2"></div>
       <div className="max-w-6xl mx-auto relative">
         <div className="bg-[#814a68] rounded-[2.5rem] overflow-hidden flex flex-col md:flex-row items-center min-h-[500px] relative shadow-2xl">
           {/* Left Content */}
