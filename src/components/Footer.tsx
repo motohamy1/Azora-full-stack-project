@@ -2,18 +2,12 @@
 const Footer = () => {
     return (
         <footer className="bg-primary text-white pt-20 pb-10 px-4 md:px-20 border-t border-white/10">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-8xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-                    {/* Logo and Newsletter */}
+                    {/* Logo and email sender */}
                     <div className="space-y-8">
                         <div className="flex items-center gap-2">
-                            <svg viewBox="0 0 100 100" className="w-6 h-6 fill-[#ebb491]">
-                                <rect x="35" y="0" width="30" height="30" transform="rotate(45 50 15)" />
-                                <rect x="0" y="35" width="30" height="30" transform="rotate(45 15 50)" />
-                                <rect x="70" y="35" width="30" height="30" transform="rotate(45 85 50)" />
-                                <rect x="35" y="70" width="30" height="30" transform="rotate(45 50 85)" />
-                                <rect x="35" y="35" width="30" height="30" transform="rotate(45 50 50)" />
-                            </svg>
+                            <img src="/icons/Vector.svg" alt="" />
                             <span className="font-bold tracking-widest text-lg">SETAPP</span>
                         </div>
 
@@ -28,9 +22,7 @@ const Footer = () => {
                                     className="bg-transparent border-none outline-none grow px-4 py-2 text-sm text-white placeholder-gray-500"
                                 />
                                 <button className="bg-white text-primary p-2 rounded-md hover:bg-white/90 transition-colors">
-                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                    </svg>
+                                    <img src="/icons/SVG.svg" alt="arrow" className="w-6 h-2" />
                                 </button>
                             </div>
                         </div>
@@ -110,11 +102,18 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-4">
-                        {[1, 2, 3, 4].map((i) => (
-                            <div key={i} className="w-8 h-8 rounded-full bg-gray-600 flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors">
-                                <div className="w-4 h-4 bg-gray-400 rounded-sm"></div>
-                            </div>
-                        ))}
+                        <a href="#" className="w-8 h-8 rounded-full bg-gray-600 flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors overflow-hidden">
+                            <img src="/icons/Item ⏵ Link - Setapp on Facebook ⏵ SVG-1.png" alt="Facebook" className="w-4 h-4 object-contain" />
+                        </a>
+                        <a href="#" className="w-8 h-8 rounded-full bg-gray-600 flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors overflow-hidden">
+                            <img src="/icons/Item ⏵ Link - Setapp on Twitter ⏵ SVG-1.png" alt="Twitter" className="w-4 h-4 object-contain" />
+                        </a>
+                        <a href="#" className="w-8 h-8 rounded-full bg-gray-600 flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors overflow-hidden">
+                            <img src="/icons/Item ⏵ Link - Setapp on Instagram ⏵ SVG-1.png" alt="Instagram" className="w-4 h-4 object-contain" />
+                        </a>
+                        <a href="#" className="w-8 h-8 rounded-full bg-gray-600 flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors overflow-hidden">
+                            <img src="/icons/Item ⏵ Link - Setapp on YouTube ⏵ SVG.svg" alt="YouTube" className="w-4 h-4 object-contain" />
+                        </a>
                     </div>
                 </div>
             </div>

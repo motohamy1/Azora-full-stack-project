@@ -11,17 +11,7 @@ const CTA = () => {
                 <div className="bg-[#f7f7f7] rounded-[3rem] p-12 md:p-24 flex flex-col items-start gap-8 shadow-2xl">
                     {/* Decorative Icon */}
                     <div className="relative w-16 h-16">
-                        <svg
-                            viewBox="0 0 100 100"
-                            className="w-full h-full fill-[#ebb491]"
-                        >
-                            {/* Diamond pattern */}
-                            <rect x="35" y="0" width="30" height="30" transform="rotate(45 50 15)" />
-                            <rect x="0" y="35" width="30" height="30" transform="rotate(45 15 50)" />
-                            <rect x="70" y="35" width="30" height="30" transform="rotate(45 85 50)" />
-                            <rect x="35" y="70" width="30" height="30" transform="rotate(45 50 85)" />
-                            <rect x="35" y="35" width="30" height="30" transform="rotate(45 50 50)" />
-                        </svg>
+                        <img src="/icons/Vector.svg" alt="logo" className="w-18 h-18" />
                     </div>
 
                     {/* Heading */}

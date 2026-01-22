@@ -7,7 +7,7 @@ const Testimonial = () => {
       <div className="absolute inset-0 bg-primary h-1/2"></div>
       {/* Bottom half - white */}
       <div className="absolute inset-0 bg-white h-1/2 top-1/2"></div>
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-7xl mx-auto relative">
         <div className="bg-[#814a68] rounded-[2.5rem] overflow-hidden flex flex-col md:flex-row items-center min-h-[500px] relative shadow-2xl">
           {/* Left Content */}
           <div className="md:w-1/2 p-12 md:p-20 z-10 flex flex-col items-start justify-center h-full">

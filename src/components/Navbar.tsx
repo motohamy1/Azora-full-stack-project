@@ -36,7 +36,7 @@ function Navbar() {
           <span> | </span>
 
           <div className="flex items-center justify-between gap-4">
-            <img src="/images/Vector.png" alt="flag" className="w-4 h-4" />
+            <img src="/icons/en.svg.png" alt="flag" className="w-4 h-4" />
             <span>Sign in </span>
           </div>
           <button className="rounded-xl border-2 border-text bg-transparent h-8 mr-2">
