@@ -6,13 +6,12 @@ function Navbar() {
       <nav className="flex items-center justify-between w-full">
         {/* the logo at the left side of the navbar */}
         <div className="flex gap-1 p-4 items-center">
-          <img src="/icons/Vector.svg" alt="Logo" className="w-6 h-6" />
-          <h1 className="text-text">Azora</h1>
+          <img src="/icons/Vector.svg" alt="Logo" className="w-8 h-8" />
         </div>
 
         {/* the items  at the right side */}
         <div className="flex items-center gap-4 text-text text-sm">
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-8">
             <a href="">
               <span>How it works</span>
             </a>
@@ -35,11 +34,11 @@ function Navbar() {
 
           <span> | </span>
 
-          <div className="flex items-center justify-between gap-4">
+          <div className="flex items-center justify-between gap-6">
             <img src="/icons/en.svg.png" alt="flag" className="w-4 h-4" />
             <span>Sign in </span>
           </div>
-          <button className="rounded-xl border-2 border-text bg-transparent h-8 mr-2">
+          <button className="rounded-xl border-2 border-text bg-transparent h-8 mr-2 ">
             <span className="p-6">Try free</span>
           </button>
         </div>

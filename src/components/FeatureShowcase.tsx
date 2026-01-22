@@ -6,10 +6,10 @@ const FeatureShowcase = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
-          <h2 className="text-2xl md:text-5xl font-bold text-white max-w-md leading-tight">
+          <h2 className="text-2xl md:text-4xl font-bold text-white max-w-md leading-tight">
             What you get on Setapp.
           </h2>
-          <p className="text-gray-400 max-w-sm text-base leading-relaxed pt-2">
+          <p className="text-gray-400  text-base leading-relaxed pt-2">
             With a single monthly subscription at $9.99, you get 240+ apps for your Mac.
           </p>
         </div>
@@ -28,7 +28,7 @@ const FeatureShowcase = () => {
               </div>
             </div>
 
-            <div className="mt-auto w-full mx-auto shadow-2xl rounded-t-2xl overflow-hidden translate-y-6">
+            <div className="mt-auto w-full mx-auto shadow-2xl rounded-t-2xl overflow-hidden translate-y-10">
               <img src="/images/cmm-big@2x.png.png" alt="CleanMyMac Interface" className="w-full h-auto" />
             </div>
           </div>
@@ -44,7 +44,7 @@ const FeatureShowcase = () => {
 
             <div className="p-10 pt-0">
               <div className="bg-white p-2 rounded-xl shadow-md inline-block mb-5 border border-gray-100">
-                <img src="/icons/icon-coderunner.png.png" alt="CodeRunner" className="w-8 h-8" />
+                <img src="/icons/icon-coderunner.png.png" alt="CodeRunner" className="w-12 h-12" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2 text-left">Write code</h3>
               <p className="text-primary/70 text-base font-medium text-left">Create applications in more than 25 languages</p>

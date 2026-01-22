@@ -12,7 +12,7 @@ const Testimonial = () => {
           {/* Left Content */}
           <div className="md:w-1/2 p-12 md:p-20 z-10 flex flex-col items-start justify-center h-full">
             <p className="text-white text-xl md:text-2xl font-medium leading-relaxed mb-6">
-              "Musicians like Jason use Azora to push the limits of their
+              "Musicians like Jason use Setapp to push the limits of their
               creativity, dancing through tasks for more time to play."
             </p>
             <p className="text-white/60 text-sm font-bold uppercase tracking-widest">

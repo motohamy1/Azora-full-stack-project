@@ -4,24 +4,28 @@ const Hero = () => {
   return (
     <section className="relative w-full min-h-[90vh] flex flex-col items-center justify-center text-center px-4 overflow-hidden bg-primary pt-20">
       {/* Floating Badges - Left Side */}
-      <div className="absolute left-[15%] top-[15%] hidden lg:block">
+      <div className="absolute left-[12%] top-[15%] hidden lg:block">
         <img src="/images/pics.svg.png" alt="Work with pics" className="w-46 rotate-[-15deg] shadow-lg" />
       </div>
 
-      <div className="absolute left-[20%] top-[32%] hidden lg:block">
+      <div className="absolute left-[17%] top-[32%] hidden lg:block">
         <img src="/images/pdf.svg.png" alt="PDF VPN" className="w-38 rotate-[10deg] shadow-lg" />
       </div>
 
-      <div className="absolute left-[15%] top-[52%] hidden lg:block">
+      <div className="absolute left-[12%] top-[32%] hidden lg:block">
+        <img src="/images/macpaw.svg.png" alt="PDF VPN" className="w-18 rotate-[10deg] shadow-lg" />
+      </div>
+
+      <div className="absolute left-[12%] top-[52%] hidden lg:block">
         <img src="/images/teamwork.svg.png" alt="Boost teamwork" className="w-55 rotate-[10deg] shadow-lg" />
       </div>
 
-      <div className="absolute left-[15%] top-[62%] hidden lg:block">
+      <div className="absolute left-[12%] top-[62%] hidden lg:block">
         <img src="/images/secure.svg.png" alt="Stay secure" className="w-38 rotate-[6deg] shadow-lg" />
       </div>
 
       {/* Central Content */}
-      <div className="z-10 flex flex-col items-center max-w-4xl">
+      <div className="z-10 flex flex-col items-center max-w-5xl">
         <div className="mb-8 p-6 bg-black rounded-[2.5rem] shadow-2xl inline-block border border-white/10">
           <img src="/icons/Vector.svg" alt="Azora Logo" className="w-16 h-16 brightness-200" />
         </div>
@@ -36,10 +40,10 @@ const Hero = () => {
           <button className="bg-white text-black px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white/90 transition-all">
             Try free for 7 days
           </button>
-          
+
           <div className="flex gap-3">
             <div className="bg-white p-4 rounded-xl cursor-pointer hover:bg-white/20 transition-all">
-                <img src="/icons/apple.svg.svg" alt="apple" /> 
+              <img src="/icons/apple.svg.svg" alt="apple" />
             </div>
             <div className="bg-white p-4 rounded-xl cursor-pointer hover:bg-white/20 transition-all">
               <img src="/icons/google.svg.svg" alt="google" />
@@ -65,7 +69,7 @@ const Hero = () => {
         <img src="/images/converter.svg.png" alt="Convert HEIC" className="w-44 rotate-[12deg] shadow-lg" />
       </div>
 
-      <div className="absolute right-[14%] top-[50%] hidden lg:block">
+      <div className="absolute right-[12%] top-[50%] hidden lg:block">
         <img src="/images/manage.svg.png" alt="Manage Mac" className="w-60 rotate-[-12deg] shadow-lg" />
       </div>
 
