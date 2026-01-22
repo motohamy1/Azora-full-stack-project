@@ -64,7 +64,7 @@ const FeatureShowcase = () => {
             <img
               src="/images/meeter@2x.png.png"
               alt="Meeter Interface"
-              className="w-full h-auto rounded-xl lg:translate-y-6 mt-auto"
+              className="w-full h-auto rounded-xl lg:translate-y-2 mt-auto"
             />
           </div>
         </div>
